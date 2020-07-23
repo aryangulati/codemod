@@ -18,7 +18,7 @@ Example: Let's say you're deprecating your use of the `<font>` tag.  From the co
         '<font *color="?(.*?)"?>(.*?)</font>' \
         '<span style="color: \1;">\2</span>'
 
-For each match of the regex, you'll be shown a colored diff, and asked if you want to accept the change (the replacement of the `<font>` tag with a `<span>` tag), reject it, or edit the line in question in your `$EDITOR` of choice.
+For each match of the regex, you'll be shown a colored difference, and asked if you want to accept the change (the replacement of the `<font>` tag with a `<span>` tag), reject it, or edit the line in question in your `$EDITOR` of choice.
 
 Install
 -------
